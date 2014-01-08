@@ -21,6 +21,7 @@
 		D2982CF5187BE755004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982CD7187BE755004E8886 /* UIKit.framework */; };
 		D2982CFD187BE755004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982CFB187BE755004E8886 /* InfoPlist.strings */; };
 		D2982CFF187BE755004E8886 /* GestureTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982CFE187BE755004E8886 /* GestureTestTests.m */; };
+		D2982D0A187BE795004E8886 /* Football.png in Resources */ = {isa = PBXBuildFile; fileRef = D2982D09187BE795004E8886 /* Football.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2982CFA187BE755004E8886 /* GestureTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982CFC187BE755004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982CFE187BE755004E8886 /* GestureTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureTestTests.m; sourceTree = "<group>"; };
+		D2982D09187BE795004E8886 /* Football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Football.png; path = Resources/Football.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D2982CC7187BE755004E8886 = {
 			isa = PBXGroup;
 			children = (
+				D2982D08187BE75C004E8886 /* Resources */,
 				D2982CD9187BE755004E8886 /* GestureTest */,
 				D2982CF8187BE755004E8886 /* GestureTestTests */,
 				D2982CD2187BE755004E8886 /* Frameworks */,
@@ -150,6 +153,14 @@
 				D2982CFB187BE755004E8886 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2982D08187BE75C004E8886 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2982D09187BE795004E8886 /* Football.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 			files = (
 				D2982CEC187BE755004E8886 /* Images.xcassets in Resources */,
 				D2982CDE187BE755004E8886 /* InfoPlist.strings in Resources */,
+				D2982D0A187BE795004E8886 /* Football.png in Resources */,
 				D2982CE7187BE755004E8886 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
